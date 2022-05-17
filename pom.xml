@@ -58,7 +58,15 @@
                 <configuration>
                     <fork>true</fork>
                     <addResources>true</addResources>
+                    <mainClass>com.xcky.UserApplication</mainClass>
                 </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
